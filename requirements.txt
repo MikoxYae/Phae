@@ -1,0 +1,15 @@
+Telethon
+pyrofork
+beautifulsoup4
+lxml
+pymongo
+requests
+aiohttp
+schedule
+tenacity
+Pillow
+motor
+pytz
+tgcrypto
+yt-dlp
+cloudscraper

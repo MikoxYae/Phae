@@ -1,0 +1,23 @@
+PHAE VPS SETUP (config.py edition)
+==================================
+
+1. Upload and extract:
+   cd /root
+   unzip Phae-ConfigPy-VPS-Ready.zip
+   cd Phae
+
+2. Edit config.py and replace:
+   BOT_USERNAME = "CHANGE_ME_BOT_USERNAME"
+   Use the username linked to BOT_TOKEN, without @.
+
+3. Install and run:
+   apt update && apt install -y python3-venv python3-pip ffmpeg unzip
+   python3 -m venv venv
+   source venv/bin/activate
+   pip install --upgrade pip setuptools wheel
+   pip install -r requirements.txt
+   python3 miko.py
+
+Background run:
+   nohup venv/bin/python3 miko.py > bot.log 2>&1 &
+   tail -f bot.log
