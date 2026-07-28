@@ -34,5 +34,5 @@ START_PIC_URL = "https://graph.org/file/a8a91e9cae02f52eabe0d-24de3bd85f8c5891d3
 
 # Runtime
 DELETE_TIMER = 3600
-PORT = 3409
+PORT = 3862
 FFMPEG_PATH = "ffmpeg"
